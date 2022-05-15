@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: rgb(52, 58, 64); 
+}
+.navbar-toggler:hover{
+    background-color: #262727;
+    opacity: 0.7;
+	transition: .7s;
+}
+.jumbotron{
+    background-color: #15181c;
+    color: #cecaca;
+}
+#sec-contato{
+    margin-top: 35px;
+    padding: 20px;
+}
+.btn{
+    background-color: #15181c;
+    color: #cecaca;
+}
+.img-resp{
+    width: 100%;
+    margin-top: 100px;
+    max-width: 100%;
+}
+iframe{
+    width: 100%;
+    max-width: 100%;
+}
+
+
+/*--------------------------------------------FOOTER------------------------------------------------------*/
+
+footer {
+    background-color: #15181c;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+    .rodape{
+        width: 100%;
+        height: 100px;
+    } 
+    .p-rod{
+        font-size:30px;
+        color: white;
+        float: left;
+        padding: 20px;
+    }
+    .footer_address{
+        color: #5c5c5c;
+        font-size: 19px;
+        text-align: center;
+    }
+    .footer_copy{
+        border-top: 1px solid rgb(10, 10, 10);
+        color: #cecaca;
+        font-size: 12px;
+        line-height: 40px;
+        text-align: center;
+        } 
+
+
+  /*--------------------------------------------MIDIAS SOCIAS------------------------------------------------------*/ 
+  .sociais{
+    float: right;
+    width: 30%; 
+    top: 100%;
+    padding: 22px;
+    
+    }  
+    .rede{
+        display: inline-block; /*deixa as png em linha*/
+        width: 60px;
+        height: 60px;
+        margin: 4px;
+        transition: all 0.04s ease-out;
+        border-radius: 50%;
+    }
+    .rede:hover{ /*efeito de animação*/
+    cursor: pointer;
+    transform: translateY(-5px);
+    box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 50);
+    }
+    .rede#facebook{
+    background-color:#2372a3;
+    width: 40px;
+    height: 40px;
+    }
+    .rede#twitter{
+    background-color: #0084b4;
+    width: 40px;
+    height: 40px;
+    }
+    .rede#instagram{
+    background-color: #3f729b;
+    width: 40px;
+    height: 40px;
+    }
+    .rede#git{
+    background-color: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;;
+    }
+    .rede#tiktok{
+    background-color: #fdfdfd;
+    width: 40px;
+    height: 40px;
+    }
+    .rede#youtube{
+    background-color: #b00;
+    width: 40px;
+    height: 40px;
+    }
+    .icone{
+    margin:0px auto;
+    padding: 10px;
+    width: 40px;
+    height: 40px;   
+    }
